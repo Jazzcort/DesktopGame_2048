@@ -1,0 +1,22 @@
+.cur-score {
+    width: 50%;
+}
+
+.max-score {
+    width: 50%;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: row;
+}
+
+.cur-score p {
+    text-align: start;
+    margin-left: 2.5rem;
+}
+
+.max-score p {
+    text-align: start;
+    margin-left: 2.5rem;
+}

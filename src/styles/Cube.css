@@ -1,0 +1,287 @@
+.cube0 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #ADD9F4;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+}
+
+@keyframes zeroToTwo {
+    from {
+      background-color: #ADD9F4;
+
+    }
+    to {
+        background-color: #c7f9cc;
+    }
+  }
+
+.cube2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #c7f9cc;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: zeroToTwo;
+}
+
+@keyframes twoToFour {
+    from {
+      background-color: #c7f9cc;
+
+    }
+    to {
+        background-color: #7f7979;
+    }
+  }
+
+.cube4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #7f7979;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: twoToFour;
+}
+
+@keyframes fourToEight {
+    from {
+      background-color: #7f7979;
+
+    }
+    to {
+        background-color: #57cc99;
+    }
+  }
+
+.cube8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #57cc99;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: fourToEight;
+}
+
+@keyframes eightToSixteen {
+    from {
+      background-color: #57cc99;
+
+    }
+    to {
+        background-color: #ffbd00;
+    }
+  }
+
+.cube16 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #ffbd00;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: eightToSixteen;
+}
+
+@keyframes sixteenToThirtyTwo {
+    from {
+      background-color: #ffbd00;
+
+    }
+    to {
+        background-color: #38a3a5;
+    }
+  }
+
+.cube32 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #38a3a5;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: sixteenToThirtyTwo;
+}
+
+@keyframes thirtyTwoToSixtyFour {
+    from {
+      background-color: #38a3a5;
+
+    }
+    to {
+        background-color: #22577a;
+    }
+  }
+
+.cube64 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #22577a;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: thirtyTwoToSixtyFour;
+}
+
+@keyframes sixty4To128 {
+    from {
+      background-color: #22577a;
+
+    }
+    to {
+        background-color: #ffcad4;
+    }
+  }
+
+.cube128 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #ffcad4;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: sixty4To128
+}
+
+@keyframes one28To256 {
+    from {
+      background-color: #ffcad4;
+
+    }
+    to {
+        background-color: #affc41;
+    }
+  }
+
+.cube256 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #affc41;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: one28To256
+}
+
+@keyframes two56To512 {
+    from {
+      background-color: #affc41;
+
+    }
+    to {
+        background-color: #c8b6ff;
+    }
+  }
+
+.cube512 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #c8b6ff;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: two56To512
+}
+
+@keyframes five12To1024 {
+    from {
+      background-color: #c8b6ff;
+
+    }
+    to {
+        background-color: #ef476f;
+    }
+  }
+
+.cube1024 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #ef476f;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: five12To1024
+}
+
+@keyframes one024To2048 {
+    from {
+      background-color: #ef476f;
+
+    }
+    to {
+        background-color: #abc4ff;
+    }
+  }
+
+.cube2048 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    background-color: #abc4ff;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem;
+    animation-duration: 0.3s;
+    animation-name: one024To2048
+}

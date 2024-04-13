@@ -1,0 +1,25 @@
+.game-main {
+    display: flex;
+    flex-direction: row;
+    width:100%
+}
+
+.right-display {
+    width: 100%;
+}
+
+.score-board {
+    margin-top: 1rem;
+}
+
+.buttons-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.buttons-area button {
+    width: 30%;
+}
