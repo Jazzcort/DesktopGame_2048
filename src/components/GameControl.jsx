@@ -1,12 +1,10 @@
-import "./CubesPlate";
 import CubesPlate from "./CubesPlate";
 import { invoke } from "@tauri-apps/api/tauri";
 import { useState, useEffect, useRef, useContext, createContext } from "react";
 import Button from "@mui/material/Button";
 import "../styles/GameControl.css";
-import "./ScoreBoard";
 import ScoreBoard from "./ScoreBoard";
-// import { appDataDir } from '@tauri-apps/api/path';
+import Shadow from "./Shadow";
 
 const AppStateContext = createContext({});
 
@@ -29,19 +27,6 @@ export default function GameControl() {
     useEffect(() => {
         getInitState();
         getRecords();
-
-        // document.addEventListener("keydown", (ev) => {
-        //     // setText(JSON.stringify(ev.key));
-        //     if (ev.key === "ArrowUp") {
-        //         handleArrowUp();
-        //     } else if (ev.key === "ArrowRight") {
-        //         handleArrowRight();
-        //     } else if (ev.key === "ArrowLeft") {
-        //         handleArrowLeft();
-        //     } else if (ev.key === "ArrowDown") {
-        //         handleArrowDown();
-        //     }
-        // }, { signal: keyController.current.signal });
     }, []);
 
     useEffect(() => {
@@ -148,17 +133,22 @@ export default function GameControl() {
         setMaxScore(a.max_score);
     }
 
+    // function cheat() {
+    //     setMatrix(old => old.map((row) => row.map((num) => 2048)))
+    // }
+
     return (
         <div className="game-main">
             <AppStateContext.Provider value={{ setCurScore }}>
+                <Shadow gameState={gameState} initializeGame={getInitState}/>
                 <CubesPlate matrix={matrix} />
-
                 <div className="right-display">
                     <ScoreBoard curScore={curScore} maxScore={maxScore} />
                     <div className="buttons-area">
                         <Button onClick={handleClick} variant="contained">
                             Restart
                         </Button>
+                        {/* <Button onClick={cheat} variant="contained">Cheat!!!!</Button> */}
                     </div>
                 </div>
             </AppStateContext.Provider>

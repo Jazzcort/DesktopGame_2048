@@ -1,0 +1,57 @@
+.shadow-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#restart-button {
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    width: 20%;
+    height: 10%;
+    /* display: flex; 
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.win-message {
+    margin: 0 0 0;
+    font-size: 80px;
+
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 70%;
+    height: 80px;
+}
+
+.lose-message {
+    margin: 0 0 0;
+    font-size: 80px;
+
+    /* text-align: center;     */
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    width: 50%;
+    height: 80px;
+}
+
+#win-animation {
+    z-index: 1;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 85%;
+}

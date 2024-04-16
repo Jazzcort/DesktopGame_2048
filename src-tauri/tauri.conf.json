@@ -21,7 +21,7 @@
     "windows": [
       {
         "fullscreen": false,
-        "resizable": true,
+        "resizable": false,
         "title": "first-tauri-app-react",
         "width": 800,
         "height": 500

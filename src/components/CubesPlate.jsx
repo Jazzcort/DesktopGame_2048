@@ -1,7 +1,4 @@
-
-import "./Cube";
 import Cube from "./Cube";
-
 import "../styles/CubesPlate.css";
 
 export default function CubesPlate( {matrix}) {
