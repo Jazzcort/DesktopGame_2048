@@ -7,5 +7,7 @@ Our goal is to showcase how Tauri can be used to develop desktop applications ef
 ## Try it
 
 To download the game: https://github.com/Jazzcort/DesktopGame_2048/releases/tag/app-v0.0.0
+
 Since there is no official signing on this application, you have to do a few more steps to make the application work under the hood.
+
 Here are some tips: https://iboysoft.com/news/app-is-damaged-and-cannot-be-opened.html
