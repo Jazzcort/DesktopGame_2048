@@ -1,7 +1,9 @@
-# Tauri + React
+# Tauri 2048 
 
-This template should help get you started developing with Tauri and React in Vite.
+In this project, we aim to develop a lightweight desktop version of the popular puzzle game 2048 using Tauri. Tauri is a framework that allows us to create desktop applications using web technologies like HTML, CSS, and JavaScript while providing access to native functionalities. By leveraging Tauri's capabilities, we can build a fast and responsive game that retains the simplicity and addictiveness of the original 2048 game.
 
-## Recommended IDE Setup
+Our goal is to showcase how Tauri can be used to develop desktop applications efficiently, with a focus on creating a seamless user experience for playing 2048. Through this project, we hope to demonstrate the potential of Tauri in the realm of desktop game development and inspire others to explore its possibilities in their own projects.
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Try it
+
+To download the game: https://github.com/Jazzcort/DesktopGame_2048/releases/tag/app-v0.0.0
